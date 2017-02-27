@@ -1,0 +1,21 @@
+$flexmargin: 200px;
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 2000;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	margin: 0 $flexmargin;
+	align-items: center;
+	label {
+		margin: 0 0 0 50px;
+	}
+}
+
+label {
+
+}
