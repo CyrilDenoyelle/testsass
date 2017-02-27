@@ -8,7 +8,8 @@
 			var r1 = 255, g1 = 255, b1 = 255, r2 = 0, g2 = 0, b2 = 0, degr = 45;
 			
 			$('body').css("background", "linear-gradient("+degr+"deg, rgb("+r1+","+g1+","+b1+"), rgb("+r2+","+g2+","+b2+"))");
-			$('input').change(function(){
+			$('input').on('mousemove', function(){
+
 				name = $(this).attr('name');
 				val = parseInt($(this).val());
 				if(name == "r1"){r1 = val;}
