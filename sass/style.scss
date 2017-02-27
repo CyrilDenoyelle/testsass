@@ -1,9 +1,12 @@
 $flexmargin: 200px;
 
+html{
+	height:100%;
+}
+
 body {
 	display: flex;
 	flex-direction: column;
-	height: 2000;
 }
 
 .flex {

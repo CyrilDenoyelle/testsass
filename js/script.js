@@ -2,11 +2,11 @@
 	app = {
 		init: function(){
 			console.log('appinit');
-			this.listener()
+			this.listener();
 		},
 		listener: function(){
 			var r1 = 255, g1 = 255, b1 = 255, r2 = 0, g2 = 0, b2 = 0, degr = 45;
-
+			
 			$('body').css("background", "linear-gradient("+degr+"deg, rgb("+r1+","+g1+","+b1+"), rgb("+r2+","+g2+","+b2+"))");
 			$('input').change(function(){
 				name = $(this).attr('name');

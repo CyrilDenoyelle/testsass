@@ -1,1 +1,1 @@
-body{display:flex;flex-direction:column;height:2000}.flex{display:flex;justify-content:center;margin:0 200px;align-items:center}.flex label{margin:0 0 0 50px}
+html{height:100%}body{display:flex;flex-direction:column}.flex{display:flex;justify-content:center;margin:0 200px;align-items:center}.flex label{margin:0 0 0 50px}
